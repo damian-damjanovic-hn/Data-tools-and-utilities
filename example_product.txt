@@ -1,0 +1,2236 @@
+# staging product
+
+{
+    "id": 876970,
+    "sku": "KANGPB",
+    "name": "Kangaroo Fitness Heavy Duty Punching Bag - 32kg",
+    "attribute_set_id": 411,
+    "price": 225,
+    "status": 2,
+    "visibility": 4,
+    "type_id": "simple",
+    "created_at": "2025-09-02 04:16:33",
+    "updated_at": "2025-09-17 16:40:18",
+    "extension_attributes": {
+        "website_ids": [
+            1
+        ],
+        "category_links": [
+            {
+                "position": 1892,
+                "category_id": "10612"
+            }
+        ]
+    },
+    "product_links": [
+    ],
+    "options": [
+    ],
+    "media_gallery_entries": [
+        {
+            "id": 1827005,
+            "media_type": "image",
+            "label": null,
+            "position": 1,
+            "disabled": false,
+            "types": [
+                "image",
+                "small_image",
+                "thumbnail"
+            ],
+            "file": "/k/a/kangpb_2_.jpg"
+        },
+        {
+            "id": 1827006,
+            "media_type": "image",
+            "label": null,
+            "position": 2,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/k/a/kangpb_1_.jpg"
+        }
+    ],
+    "tier_prices": [
+    ],
+    "custom_attributes": [
+        {
+            "attribute_code": "article_i_d",
+            "value": "12720998"
+        },
+        {
+            "attribute_code": "copy_format",
+            "value": "33435"
+        },
+        {
+            "attribute_code": "def_warranty_manufacture",
+            "value": "61368"
+        },
+        {
+            "attribute_code": "cost",
+            "value": "191.250000"
+        },
+        {
+            "attribute_code": "is_recurring",
+            "value": "1"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_core_range",
+            "value": "0"
+        },
+        {
+            "attribute_code": "def_general_copywriter",
+            "value": "106286"
+        },
+        {
+            "attribute_code": "is_ewarranty_automatic",
+            "value": "0"
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/k/a/kangpb_2_.jpg"
+        },
+        {
+            "attribute_code": "gift_wrapping_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_dropship_range",
+            "value": "1"
+        },
+        {
+            "attribute_code": "oms_department",
+            "value": "8"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/k/a/kangpb_2_.jpg"
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container1"
+        },
+        {
+            "attribute_code": "is_marketplace_range",
+            "value": "0"
+        },
+        {
+            "attribute_code": "oms_packsize",
+            "value": "117"
+        },
+        {
+            "attribute_code": "internal_notes",
+            "value": "\r\nartemis/9152025\r\n\r\n\r\n<p>Step up your training game with the<span> </span><strong>Kangaroo Fitness Punching Bag 32kg</strong>. Designed for both beginners and seasoned fighters, this high-quality punching bag is perfect for improving your strength, endurance, and technique. Whether you're into boxing, MMA, kickboxing, or just looking for a great full-body workout, this bag is built to withstand your hardest hits and kicks.</p><p><strong>Key Features:</strong></p><ul><li><p><strong>Heavy-Duty Construction:</strong><span> </span>Weighing 32kg and measuring 128x35x35 cm, this punching bag is made from durable materials to ensure longevity and resistance to wear and tear.</p></li><li><p><strong>Optimal Size &amp; Weight:</strong><span> </span>The balanced weight and size make it ideal for a variety of striking techniques, including punches, kicks, knees, and elbows.</p></li><li><p><strong>High-Density Filling:</strong><span> </span>Packed with premium filling, the bag offers a consistent feel and resistance, providing a realistic training experience.</p></li><li><p><strong>Versatile Use:</strong><span> </span>Suitable for boxing, martial arts, fitness training, and stress relief. Perfect for home gyms, boxing clubs, or fitness studios.</p></li><li><p><strong>Sturdy Hanging Straps:</strong><span> </span>Equipped with reinforced straps for secure hanging, ensuring stability during intense workouts.</p></li></ul><p><strong>Why Choose Kangaroo Fitness?</strong><br>Kangaroo Fitness is committed to delivering top-notch fitness equipment that helps you achieve your goals. The 32kg Punching Bag is designed to enhance your strength, agility, and precision, making it an essential tool for anyone serious about their training.</p><p>Whether you're honing your combat skills or just looking for a high-intensity workout, the<span> </span><strong>Kangaroo Fitness Punching Bag 32kg</strong><span> </span>is your ultimate training partner.</p>\r\n\r\n\r\nTO COPYWRITERS: Refer to image columns (wherever the image that has text on it) and include text on the image in key features\r\n\r\nhttps://messagepool.sharepoint.com/:x:/r/sites/DEPT-HNAU-DropshipProductManagement/Shared%20Documents/Suppliers/Kangaroo%20Fitness/Subs/HN%20Marketplace%20-%20Product%20Submission%20v1.2.xlsx?d=w4953b0bf6cc94aa6954150361dc5d3cf&csf=1&web=1&e=Eexj7J\r\n"
+        },
+        {
+            "attribute_code": "display_shipping_calculator",
+            "value": "1"
+        },
+        {
+            "attribute_code": "swatch_image",
+            "value": "no_selection"
+        },
+        {
+            "attribute_code": "is_main_range",
+            "value": "0"
+        },
+        {
+            "attribute_code": "oms_ffgroup",
+            "value": "211"
+        },
+        {
+            "attribute_code": "def_description_buttons",
+            "value": [
+            ]
+        },
+        {
+            "attribute_code": "automated_sap_price",
+            "value": "1"
+        },
+        {
+            "attribute_code": "barcode_gtin",
+            "value": "616421075901"
+        },
+        {
+            "attribute_code": "main_features",
+            "value": [
+            ]
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "2"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/k/a/kangpb_2_.jpg"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>Step up your training game with the Kangaroo Fitness Heavy Duty Punching Bag. Designed for both beginners and seasoned fighters, this high-quality punching bag is perfect for improving your strength, endurance, and technique. Whether you're into boxing, MMA, kickboxing, or just looking for a great full-body workout, this bag is built to withstand your hardest hits and kicks.</p>"
+        },
+        {
+            "attribute_code": "def_price_region_enable",
+            "value": "0"
+        },
+        {
+            "attribute_code": "description",
+            "value": "<div data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\">&lt;h6&gt;Key Features&lt;/h6&gt;\r\n&lt;ul&gt;\r\n&lt;li&gt;Heavy-Duty Construction: Weighing 32kg and measuring 128x35x35 cm, this punching bag is made from durable materials to ensure longevity and resistance to wear and tear.&lt;/li&gt;\r\n&lt;li&gt;Optimal Size &amp;amp; Weight: The balanced weight and size make it ideal for a variety of striking techniques, including punches, kicks, knees, and elbows.&lt;/li&gt;\r\n&lt;li&gt;High-Density Filling: Packed with premium filling, the bag offers a consistent feel and resistance, providing a realistic training experience.&lt;/li&gt;\r\n&lt;li&gt;Versatile Use: Suitable for boxing, martial arts, fitness training, and stress relief. Perfect for home gyms, boxing clubs, or fitness studios.&lt;/li&gt;\r\n&lt;li&gt;Sturdy Hanging Straps: Equipped with reinforced straps for secure hanging, ensuring stability during intense workouts.&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;&lt;strong&gt;Why Choose Kangaroo Fitness?&lt;/strong&gt;&lt;br /&gt;Kangaroo Fitness is committed to delivering top-notch fitness equipment that helps you achieve your goals. The 32kg Punching Bag is designed to enhance your strength, agility, and precision, making it an essential tool for anyone serious about their training.&lt;/p&gt;\r\n&lt;p&gt;Whether you're honing your combat skills or just looking for a high-intensity workout, the Kangaroo Fitness Punching Bag 32kg is your ultimate training partner.&lt;/p&gt;</div>"
+        },
+        {
+            "attribute_code": "media_rotating_image",
+            "value": "no_selection"
+        },
+        {
+            "attribute_code": "product_staging",
+            "value": "87311"
+        },
+        {
+            "attribute_code": "def_general_creator",
+            "value": "106248"
+        },
+        {
+            "attribute_code": "special_title",
+            "value": "Special Price"
+        },
+        {
+            "attribute_code": "ems_single_qty",
+            "value": "0"
+        },
+        {
+            "attribute_code": "date_created",
+            "value": "2025-09-15 00:00:00"
+        },
+        {
+            "attribute_code": "date_copy",
+            "value": "2025-09-15 00:00:00"
+        },
+        {
+            "attribute_code": "msrp_display_actual_price_type",
+            "value": "0"
+        },
+        {
+            "attribute_code": "date_staging",
+            "value": "2025-09-17 00:00:00"
+        },
+        {
+            "attribute_code": "display_was_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "offer_type",
+            "value": "87246"
+        },
+        {
+            "attribute_code": "required_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "kangaroo-fitness-heavy-duty-punching-bag-32kg"
+        },
+        {
+            "attribute_code": "offer_from",
+            "value": "2025-09-15 00:00:00"
+        },
+        {
+            "attribute_code": "has_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "supplier_name_reporting",
+            "value": "Kangaroo Fitness"
+        },
+        {
+            "attribute_code": "offer_to",
+            "value": "2045-09-15 00:00:00"
+        },
+        {
+            "attribute_code": "vbdm",
+            "value": "91356"
+        },
+        {
+            "attribute_code": "def_general_exclusive",
+            "value": "0"
+        },
+        {
+            "attribute_code": "def_system_producttype",
+            "value": "98315"
+        },
+        {
+            "attribute_code": "def_general_brand",
+            "value": "133596"
+        },
+        {
+            "attribute_code": "def_general_maincolour",
+            "value": "81585"
+        },
+        {
+            "attribute_code": "def_general_allcolour",
+            "value": "45454"
+        },
+        {
+            "attribute_code": "def_general_hidecode",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_imported",
+            "value": "1"
+        },
+        {
+            "attribute_code": "is_googleshopping",
+            "value": "1"
+        },
+        {
+            "attribute_code": "google_product_category",
+            "value": "70612"
+        },
+        {
+            "attribute_code": "ebay_availableon",
+            "value": "0"
+        },
+        {
+            "attribute_code": "enable_flix_media",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_returnable",
+            "value": "0"
+        },
+        {
+            "attribute_code": "on_clearance",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_from_bestsellers",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "can_reserve",
+            "value": "26596"
+        },
+        {
+            "attribute_code": "is_non_diminishing",
+            "value": "0"
+        },
+        {
+            "attribute_code": "feature_icons",
+            "value": "32346"
+        },
+        {
+            "attribute_code": "hide_reviews",
+            "value": "0"
+        },
+        {
+            "attribute_code": "enable_cnet_inline_content",
+            "value": "0"
+        },
+        {
+            "attribute_code": "bazaar_average",
+            "value": "0.000000"
+        },
+        {
+            "attribute_code": "bazaar_review_cnt",
+            "value": "0"
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "10612"
+            ]
+        },
+        {
+            "attribute_code": "msg_availability_type",
+            "value": "35494"
+        },
+        {
+            "attribute_code": "msg_availability",
+            "value": "10341"
+        },
+        {
+            "attribute_code": "enable_add_to_cart",
+            "value": "1"
+        },
+        {
+            "attribute_code": "enable_check_store_stock",
+            "value": "1"
+        },
+        {
+            "attribute_code": "call_to_action",
+            "value": "add_to_cart"
+        },
+        {
+            "attribute_code": "value_statement",
+            "value": "67197,67201,67223"
+        },
+        {
+            "attribute_code": "external_product_id",
+            "value": "KANGPB"
+        }
+    ]
+}
+
+
+# staging produt 2
+
+{
+    "id": 583138,
+    "sku": "28531-S",
+    "name": "TPP Adult Costume Day of the Dead, Senor Bones - Small",
+    "attribute_set_id": 331,
+    "price": 65,
+    "status": 2,
+    "visibility": 3,
+    "type_id": "simple",
+    "created_at": "2023-10-15 23:33:38",
+    "updated_at": "2025-05-13 10:44:46",
+    "extension_attributes": {
+        "website_ids": [
+            1
+        ],
+        "category_links": [
+            {
+                "position": 519,
+                "category_id": "8471"
+            }
+        ]
+    },
+    "product_links": [
+    ],
+    "options": [
+    ],
+    "media_gallery_entries": [
+        {
+            "id": 1154824,
+            "media_type": "image",
+            "label": null,
+            "position": 0,
+            "disabled": false,
+            "types": [
+                "image",
+                "small_image",
+                "thumbnail"
+            ],
+            "file": "/4/3/43738_1.jpg"
+        },
+        {
+            "id": 1154826,
+            "media_type": "image",
+            "label": null,
+            "position": 1,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/4/3/43738_s_1.jpg"
+        },
+        {
+            "id": 1154825,
+            "media_type": "image",
+            "label": null,
+            "position": 2,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/4/3/43738_b_1.jpg"
+        }
+    ],
+    "tier_prices": [
+    ],
+    "custom_attributes": [
+        {
+            "attribute_code": "copy_format",
+            "value": "33435"
+        },
+        {
+            "attribute_code": "def_warranty_manufacture",
+            "value": "61368"
+        },
+        {
+            "attribute_code": "unit_cost_price_inc_tax",
+            "value": "57.16"
+        },
+        {
+            "attribute_code": "cost",
+            "value": "57.160000"
+        },
+        {
+            "attribute_code": "is_recurring",
+            "value": "1"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "article_i_d",
+            "value": "12239576"
+        },
+        {
+            "attribute_code": "def_general_copywriter",
+            "value": "106292"
+        },
+        {
+            "attribute_code": "is_ewarranty_automatic",
+            "value": "0"
+        },
+        {
+            "attribute_code": "unit_cost_price_excl_tax",
+            "value": "51.96"
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/4/3/43738_1.jpg"
+        },
+        {
+            "attribute_code": "gift_wrapping_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "oms_department",
+            "value": "11"
+        },
+        {
+            "attribute_code": "tag_cost_price_inc_tax",
+            "value": "57.16"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/4/3/43738_1.jpg"
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container2"
+        },
+        {
+            "attribute_code": "oms_packsize",
+            "value": "1"
+        },
+        {
+            "attribute_code": "internal_notes",
+            "value": "Nicole 28/11/2023\r\n\r\nAdd some Mexican flavour to your Halloween with this Day of the Dead themed Senor Bones costume! Perfect for celebrating Dia de los Muertos in traditional style, and also great without the makeup for Mariachi costumes. Costume includes jacket, trousers, mock shirt and hat. Makeup for skull face can be purchased separately from our website. Available in the following sizes: Small: Chest - 89 to 91 cm. Waist - 71 cm to 76 cm. Inside Leg - 82 cm. Medium: Chest - 97 cm to 102 cm. Waist - 81 cm to 86 cm. Inside Leg - 83 cm. Large: Chest - 107 cm to 112 cm. Waist - 91 cm to 97 cm. Inside Leg - 84 cm. Extra Large: Chest - 117 cm to 122 cm. Waist - 102 cm to 107 cm. Inside Leg - 84 cm. \r\nThe dimensions below are for the product packaging.\r\n\r\nhttp://media.thepartypeople.com.au/media/catalog/product/4/3/43738.jpg\thttp://media.thepartypeople.com.au/media/catalog/product/4/3/43738_b.jpg\thttp://media.thepartypeople.com.au/media/catalog/product/4/3/43738_s.jpg\t\t\t\t\t\t\t\r\n"
+        },
+        {
+            "attribute_code": "display_shipping_calculator",
+            "value": "1"
+        },
+        {
+            "attribute_code": "swatch_image",
+            "value": "no_selection"
+        },
+        {
+            "attribute_code": "oms_ffgroup",
+            "value": "211"
+        },
+        {
+            "attribute_code": "def_description_buttons",
+            "value": [
+            ]
+        },
+        {
+            "attribute_code": "automated_sap_price",
+            "value": "1"
+        },
+        {
+            "attribute_code": "main_features",
+            "value": [
+            ]
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "2"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/4/3/43738_1.jpg"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>Celebrate the Day of the Dead and capture the spotlight at your next costume party or themed event as you dress up with the TPP Adult Costume Day of the Dead, Senor Bones.</p>"
+        },
+        {
+            "attribute_code": "def_price_region_enable",
+            "value": "0"
+        },
+        {
+            "attribute_code": "description",
+            "value": "<div data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\">&lt;h6&gt;Key Features&lt;/h6&gt;\r\n&lt;ul&gt;\r\n&lt;li&gt;Features a traditional-styled mock shirt, jacket, trousers, and hat for a complete, overall look&lt;/li&gt;\r\n&lt;li&gt;Fits small sizes (89 to 91cm chest, 71 to 76cm waist, and 82cm inside leg)&lt;/li&gt;\r\n&lt;li&gt;Available in various sizes&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;h6&gt;Note: Skull face make-up is sold separately.&lt;/h6&gt;</div>"
+        },
+        {
+            "attribute_code": "media_rotating_image",
+            "value": "no_selection"
+        },
+        {
+            "attribute_code": "ems_single_qty",
+            "value": "0"
+        },
+        {
+            "attribute_code": "product_staging",
+            "value": "107215"
+        },
+        {
+            "attribute_code": "special_title",
+            "value": "Special Price"
+        },
+        {
+            "attribute_code": "date_created",
+            "value": "2023-11-28 00:00:00"
+        },
+        {
+            "attribute_code": "date_copy",
+            "value": "2023-11-28 00:00:00"
+        },
+        {
+            "attribute_code": "msrp_display_actual_price_type",
+            "value": "0"
+        },
+        {
+            "attribute_code": "date_staging",
+            "value": "2024-03-05 00:00:00"
+        },
+        {
+            "attribute_code": "display_was_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "offer_type",
+            "value": "87246"
+        },
+        {
+            "attribute_code": "offer_title_short",
+            "value": "Bonus Delivery"
+        },
+        {
+            "attribute_code": "required_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "staging-tpp-adult-costume-day-of-the-dead-senor-bones-small"
+        },
+        {
+            "attribute_code": "offer_from",
+            "value": "2023-11-28 00:00:00"
+        },
+        {
+            "attribute_code": "has_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "supplier_name_reporting",
+            "value": "The Party People Shop"
+        },
+        {
+            "attribute_code": "offer_to",
+            "value": "2043-11-28 00:00:00"
+        },
+        {
+            "attribute_code": "def_general_exclusive",
+            "value": "0"
+        },
+        {
+            "attribute_code": "vbdm",
+            "value": "91359"
+        },
+        {
+            "attribute_code": "def_system_producttype",
+            "value": "98623"
+        },
+        {
+            "attribute_code": "def_general_brand",
+            "value": "117081"
+        },
+        {
+            "attribute_code": "def_general_maincolour",
+            "value": "81585"
+        },
+        {
+            "attribute_code": "def_general_allcolour",
+            "value": "45454"
+        },
+        {
+            "attribute_code": "bigbuys_sports_size",
+            "value": "90629"
+        },
+        {
+            "attribute_code": "def_general_hidecode",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_imported",
+            "value": "1"
+        },
+        {
+            "attribute_code": "is_googleshopping",
+            "value": "1"
+        },
+        {
+            "attribute_code": "google_product_category",
+            "value": "70076"
+        },
+        {
+            "attribute_code": "ebay_availableon",
+            "value": "0"
+        },
+        {
+            "attribute_code": "enable_flix_media",
+            "value": "0"
+        },
+        {
+            "attribute_code": "external_product_id",
+            "value": "28531-S"
+        },
+        {
+            "attribute_code": "is_returnable",
+            "value": "2"
+        },
+        {
+            "attribute_code": "on_clearance",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_from_bestsellers",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "can_reserve",
+            "value": "26596"
+        },
+        {
+            "attribute_code": "is_non_diminishing",
+            "value": "0"
+        },
+        {
+            "attribute_code": "feature_icons",
+            "value": "32346"
+        },
+        {
+            "attribute_code": "hide_reviews",
+            "value": "0"
+        },
+        {
+            "attribute_code": "enable_cnet_inline_content",
+            "value": "0"
+        },
+        {
+            "attribute_code": "bazaar_average",
+            "value": "0.000000"
+        },
+        {
+            "attribute_code": "bazaar_review_cnt",
+            "value": "0"
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "8471"
+            ]
+        },
+        {
+            "attribute_code": "enable_check_store_stock",
+            "value": "1"
+        },
+        {
+            "attribute_code": "value_statement",
+            "value": "67197,67201,67223"
+        },
+        {
+            "attribute_code": "msg_availability_type",
+            "value": "35494"
+        },
+        {
+            "attribute_code": "msg_availability",
+            "value": "10341"
+        },
+        {
+            "attribute_code": "call_to_action",
+            "value": "add_to_cart"
+        },
+        {
+            "attribute_code": "enable_add_to_cart",
+            "value": "1"
+        }
+    ]
+}
+
+
+# prod 
+
+{
+    "id": 878435,
+    "sku": "848221",
+    "name": "Randy and Travis Leak-Proof Nozzle Garden Hose",
+    "attribute_set_id": 66,
+    "price": 15,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "simple",
+    "created_at": "2025-09-08 00:23:44",
+    "updated_at": "2025-09-18 04:19:37",
+    "weight": 0.31,
+    "extension_attributes": {
+        "website_ids": [
+            1
+        ],
+        "category_links": [
+            {
+                "position": 1670,
+                "category_id": "8133"
+            }
+        ]
+    },
+    "product_links": [
+    ],
+    "options": [
+    ],
+    "media_gallery_entries": [
+        {
+            "id": 1823771,
+            "media_type": "image",
+            "label": null,
+            "position": 0,
+            "disabled": false,
+            "types": [
+                "image",
+                "small_image",
+                "thumbnail"
+            ],
+            "file": "/8/4/848221_2_.png"
+        },
+        {
+            "id": 1823772,
+            "media_type": "image",
+            "label": null,
+            "position": 1,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_7_.png"
+        },
+        {
+            "id": 1823773,
+            "media_type": "image",
+            "label": null,
+            "position": 2,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_5_.png"
+        },
+        {
+            "id": 1823774,
+            "media_type": "image",
+            "label": null,
+            "position": 3,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_3_.png"
+        },
+        {
+            "id": 1823775,
+            "media_type": "image",
+            "label": null,
+            "position": 4,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_1_.png"
+        },
+        {
+            "id": 1823776,
+            "media_type": "image",
+            "label": null,
+            "position": 5,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_4_.png"
+        },
+        {
+            "id": 1823777,
+            "media_type": "image",
+            "label": null,
+            "position": 6,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_6_.png"
+        },
+        {
+            "id": 1823778,
+            "media_type": "image",
+            "label": null,
+            "position": 7,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_7_.jpg"
+        },
+        {
+            "id": 1823779,
+            "media_type": "image",
+            "label": null,
+            "position": 8,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_2_.jpg"
+        },
+        {
+            "id": 1823780,
+            "media_type": "image",
+            "label": null,
+            "position": 9,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_1_.jpg"
+        },
+        {
+            "id": 1823781,
+            "media_type": "image",
+            "label": null,
+            "position": 10,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_4_.jpg"
+        },
+        {
+            "id": 1823782,
+            "media_type": "image",
+            "label": null,
+            "position": 11,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_5_.jpg"
+        },
+        {
+            "id": 1823783,
+            "media_type": "image",
+            "label": null,
+            "position": 12,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_3_.jpg"
+        },
+        {
+            "id": 1823784,
+            "media_type": "image",
+            "label": null,
+            "position": 13,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/4/848221_8_.jpg"
+        }
+    ],
+    "tier_prices": [
+    ],
+    "custom_attributes": [
+        {
+            "attribute_code": "copy_format",
+            "value": "33435"
+        },
+        {
+            "attribute_code": "def_warranty_manufacture",
+            "value": "61368"
+        },
+        {
+            "attribute_code": "unit_cost_price_inc_tax",
+            "value": "13.31"
+        },
+        {
+            "attribute_code": "cost",
+            "value": "13.310000"
+        },
+        {
+            "attribute_code": "is_recurring",
+            "value": "1"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_core_range",
+            "value": "0"
+        },
+        {
+            "attribute_code": "article_i_d",
+            "value": "12722136"
+        },
+        {
+            "attribute_code": "def_general_copywriter",
+            "value": "106288"
+        },
+        {
+            "attribute_code": "def_dimension_prodheight",
+            "value": "6.8"
+        },
+        {
+            "attribute_code": "is_ewarranty_automatic",
+            "value": "0"
+        },
+        {
+            "attribute_code": "unit_cost_price_excl_tax",
+            "value": "12.10"
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/8/4/848221_2_.png"
+        },
+        {
+            "attribute_code": "gift_wrapping_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_dropship_range",
+            "value": "1"
+        },
+        {
+            "attribute_code": "oms_department",
+            "value": "11"
+        },
+        {
+            "attribute_code": "def_dimension_prodwidth",
+            "value": "17.3"
+        },
+        {
+            "attribute_code": "tag_cost_price_inc_tax",
+            "value": "13.31"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/8/4/848221_2_.png"
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container2"
+        },
+        {
+            "attribute_code": "is_marketplace_range",
+            "value": "0"
+        },
+        {
+            "attribute_code": "oms_packsize",
+            "value": "211"
+        },
+        {
+            "attribute_code": "internal_notes",
+            "value": "DANICA / 09.11.25\r\n\r\nTo copywriters: please use same copy as provided\r\n\r\n\"<p>Experience versatility at your fingertips with our garden hose nozzle selector. Simply rotate and click through a range of settings including fog, cone, flush, flat, center, spray, and shower, adapting effortlessly to your watering needs.</p>\r\n\r\n<p>Say goodbye to complicated setups with our hose hand sprayer, designed for easy foam generation. Just fill the bottle with detergent, adjust the amount of foam using the rotating switch, and you&#39;re ready to go.</p>\r\n\r\n<p>Crafted from zinc alloy and plastic, it provides a secure and comfortable grip, ensuring a non-slip hold even during extended use. With fine workmanship and a quick coupling design, it delivers a tight and durable fit, eliminating the frustration of water leakage.</p>\r\n\r\n<p>Discover endless possibilities with our multipurpose garden hose nozzle. Perfect for watering plants, lawns, and yards, it also serves as a convenient tool for car washes, pet showers, and more, making it an indispensable addition to your outdoor toolkit.</p>\r\n\r\n<p><strong>Specifications:</strong></p>\r\n\r\n<ul>\r\n<li>Material: Zinc Alloy, Plastic</li>\r\n<li>Product Size: Approximately 26.5 x 17.3 x 6.8cm</li>\r\n<li>Weight: Approximately 310g</li>\r\n<li>Watering Can Capacity: 150mL</li>\r\n<li>Interface Specification: Quick Connector</li>\r\n</ul>\r\n<p><strong>Note:</strong> <br /><strong>COM (change of mind) Return Policy:</strong> <br /><strong>The product must be unopened and in brand new condition, with the return to be organised by the customer. Once received and verified to be in the condition specified, refund is only of the item value minus 15% restocking fee (not including initial shipping). An additional return charge, which is same cost as that of initial shipping, will be deducted from the refund on returns due to delivery failure caused by customer error. For the health and safety of our staff and other customers, we are unable to accept returns of personal use items.</strong></p>\"\t\r\n\r\nhttps://messagepool.sharepoint.com/:x:/r/sites/DEPT-HNAU-DropshipProductManagement/Shared%20Documents/Suppliers/Serrano%20Australia%20301035/Submissions/05.09.25%20New%20Product%20Submission%20Serrano%202025.xlsx?d=wbee792a2061c4b7bb266c335b6511fd7&csf=1&web=1&e=m1DoBr"
+        },
+        {
+            "attribute_code": "def_dimension_proddepth",
+            "value": "26.5"
+        },
+        {
+            "attribute_code": "display_shipping_calculator",
+            "value": "1"
+        },
+        {
+            "attribute_code": "swatch_image",
+            "value": "no_selection"
+        },
+        {
+            "attribute_code": "is_main_range",
+            "value": "0"
+        },
+        {
+            "attribute_code": "oms_ffgroup",
+            "value": "211"
+        },
+        {
+            "attribute_code": "def_description_buttons",
+            "value": [
+            ]
+        },
+        {
+            "attribute_code": "automated_sap_price",
+            "value": "1"
+        },
+        {
+            "attribute_code": "barcode_gtin",
+            "value": "9356516035168"
+        },
+        {
+            "attribute_code": "main_features",
+            "value": [
+            ]
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "2"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/8/4/848221_2_.png"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>Experience versatility at your fingertips with the Randy and Travis Leak-Proof Nozzle Garden Hose. Simply rotate and click through a range of settings, including fog, cone, flush, flat, centre, spray, and shower, adapting effortlessly to your watering needs.</p>\r\n"
+        },
+        {
+            "attribute_code": "def_price_region_enable",
+            "value": "0"
+        },
+        {
+            "attribute_code": "description",
+            "value": "<div data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\">&lt;h6&gt;Key Features&lt;/h6&gt;\r\n&lt;ul&gt;\r\n&lt;li&gt;Crafted from zinc alloy and plastic&lt;/li&gt;\r\n&lt;li&gt;Provides a secure and comfortable grip, ensuring a non-slip hold even during extended use&lt;/li&gt;\r\n&lt;li&gt;With fine workmanship and a quick coupling design, it delivers a tight and durable fit, eliminating the frustration of water leakage&lt;/li&gt;\r\n&lt;li&gt;Perfect for watering plants, lawns, and yards, it also serves as a convenient tool for car washes and pet showers, making it an indispensable addition to your outdoor toolkit&lt;/li&gt;\r\n&lt;li&gt;Material: Zinc Alloy, Plastic&lt;/li&gt;\r\n&lt;li&gt;Product Size: Approximately 26.5 x 17.3 x 6.8cm&lt;/li&gt;\r\n&lt;li&gt;Weight: Approximately 310g&lt;/li&gt;\r\n&lt;li&gt;Watering Can Capacity: 150mL&lt;/li&gt;\r\n&lt;li&gt;Interface Specification: Quick Connector&lt;/li&gt;\r\n&lt;/ul&gt;</div>"
+        },
+        {
+            "attribute_code": "media_rotating_image",
+            "value": "no_selection"
+        },
+        {
+            "attribute_code": "product_staging",
+            "value": "87309"
+        },
+        {
+            "attribute_code": "special_title",
+            "value": "Special Price"
+        },
+        {
+            "attribute_code": "def_general_creator",
+            "value": "110387"
+        },
+        {
+            "attribute_code": "ems_single_qty",
+            "value": "0"
+        },
+        {
+            "attribute_code": "date_created",
+            "value": "2025-09-11 00:00:00"
+        },
+        {
+            "attribute_code": "date_copy",
+            "value": "2025-09-11 00:00:00"
+        },
+        {
+            "attribute_code": "msrp_display_actual_price_type",
+            "value": "0"
+        },
+        {
+            "attribute_code": "date_staging",
+            "value": "2025-09-16 00:00:00"
+        },
+        {
+            "attribute_code": "display_was_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "date_published",
+            "value": "2025-09-18 00:00:00"
+        },
+        {
+            "attribute_code": "offer_type",
+            "value": "87246"
+        },
+        {
+            "attribute_code": "required_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "randy-and-travis-leak-proof-nozzle-garden-hose"
+        },
+        {
+            "attribute_code": "offer_from",
+            "value": "2025-09-01 00:00:00"
+        },
+        {
+            "attribute_code": "has_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "supplier_name_reporting",
+            "value": "Serrano"
+        },
+        {
+            "attribute_code": "offer_to",
+            "value": "2045-09-01 00:00:00"
+        },
+        {
+            "attribute_code": "def_general_exclusive",
+            "value": "0"
+        },
+        {
+            "attribute_code": "vbdm",
+            "value": "91358"
+        },
+        {
+            "attribute_code": "def_system_producttype",
+            "value": "99053"
+        },
+        {
+            "attribute_code": "def_general_brand",
+            "value": "133657"
+        },
+        {
+            "attribute_code": "def_general_maincolour",
+            "value": "83029"
+        },
+        {
+            "attribute_code": "def_general_allcolour",
+            "value": "45469"
+        },
+        {
+            "attribute_code": "def_general_hidecode",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_imported",
+            "value": "1"
+        },
+        {
+            "attribute_code": "is_googleshopping",
+            "value": "1"
+        },
+        {
+            "attribute_code": "google_product_category",
+            "value": "70536"
+        },
+        {
+            "attribute_code": "ebay_availableon",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_returnable",
+            "value": "2"
+        },
+        {
+            "attribute_code": "on_clearance",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_from_bestsellers",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "enable_flix_media",
+            "value": "0"
+        },
+        {
+            "attribute_code": "can_reserve",
+            "value": "26596"
+        },
+        {
+            "attribute_code": "is_non_diminishing",
+            "value": "0"
+        },
+        {
+            "attribute_code": "feature_icons",
+            "value": "32346"
+        },
+        {
+            "attribute_code": "bazaar_average",
+            "value": "0.000000"
+        },
+        {
+            "attribute_code": "bazaar_review_cnt",
+            "value": "0"
+        },
+        {
+            "attribute_code": "enable_cnet_inline_content",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_reviews",
+            "value": "0"
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "8133"
+            ]
+        },
+        {
+            "attribute_code": "msg_availability_type",
+            "value": "35494"
+        },
+        {
+            "attribute_code": "call_to_action",
+            "value": "add_to_cart"
+        },
+        {
+            "attribute_code": "value_statement",
+            "value": "67197,67201,67223"
+        },
+        {
+            "attribute_code": "enable_check_store_stock",
+            "value": "1"
+        },
+        {
+            "attribute_code": "msg_availability",
+            "value": "10341"
+        },
+        {
+            "attribute_code": "enable_add_to_cart",
+            "value": "1"
+        },
+        {
+            "attribute_code": "external_product_id",
+            "value": "848221"
+        }
+    ]
+}
+
+
+# failed order product
+
+{
+    "id": 871106,
+    "sku": "807224",
+    "name": "vidaXL 2 Piece White Engineered Wood 40 x 40 x 50cm Wall Corner Shelves ",
+    "attribute_set_id": 454,
+    "price": 53,
+    "status": 1,
+    "visibility": 4,
+    "type_id": "simple",
+    "created_at": "2025-08-14 02:18:24",
+    "updated_at": "2025-09-16 06:03:20",
+    "weight": 5,
+    "extension_attributes": {
+        "website_ids": [
+            1
+        ],
+        "category_links": [
+            {
+                "position": 4548,
+                "category_id": "9313"
+            }
+        ]
+    },
+    "product_links": [
+    ],
+    "options": [
+    ],
+    "media_gallery_entries": [
+        {
+            "id": 1797316,
+            "media_type": "image",
+            "label": null,
+            "position": 0,
+            "disabled": false,
+            "types": [
+                "image",
+                "small_image",
+                "thumbnail"
+            ],
+            "file": "/8/7/8720286596425_a_en_hd_1_1.jpg"
+        },
+        {
+            "id": 1797317,
+            "media_type": "image",
+            "label": null,
+            "position": 1,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/7/8720286596425_g_en_hd_2_1.jpg"
+        },
+        {
+            "id": 1797318,
+            "media_type": "image",
+            "label": null,
+            "position": 2,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/7/8720286596425_g_en_hd_4_1.jpg"
+        },
+        {
+            "id": 1797319,
+            "media_type": "image",
+            "label": null,
+            "position": 3,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/7/8720286596425_g_en_hd_5_1.jpg"
+        },
+        {
+            "id": 1797320,
+            "media_type": "image",
+            "label": null,
+            "position": 4,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/7/8720286596425_g_en_hd_6_1.jpg"
+        },
+        {
+            "id": 1797321,
+            "media_type": "image",
+            "label": null,
+            "position": 5,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/7/8720286596425_g_en_hd_3_1.jpg"
+        },
+        {
+            "id": 1797322,
+            "media_type": "image",
+            "label": null,
+            "position": 6,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/7/8720286596425_m_en_hd_1_1.jpg"
+        },
+        {
+            "id": 1797323,
+            "media_type": "image",
+            "label": null,
+            "position": 7,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/7/8720286596425_g_en_hd_1_1.jpg"
+        },
+        {
+            "id": 1797324,
+            "media_type": "image",
+            "label": null,
+            "position": 8,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/8/7/8720286596425_g_en_hd_7_1.jpg"
+        }
+    ],
+    "tier_prices": [
+    ],
+    "custom_attributes": [
+        {
+            "attribute_code": "copy_format",
+            "value": "33435"
+        },
+        {
+            "attribute_code": "def_warranty_manufacture",
+            "value": "61374"
+        },
+        {
+            "attribute_code": "unit_cost_price_inc_tax",
+            "value": "44.75"
+        },
+        {
+            "attribute_code": "cost",
+            "value": "44.750000"
+        },
+        {
+            "attribute_code": "is_recurring",
+            "value": "1"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_core_range",
+            "value": "0"
+        },
+        {
+            "attribute_code": "article_i_d",
+            "value": "12711536"
+        },
+        {
+            "attribute_code": "def_general_copywriter",
+            "value": "106287"
+        },
+        {
+            "attribute_code": "def_dimension_prodheight",
+            "value": "50"
+        },
+        {
+            "attribute_code": "is_ewarranty_automatic",
+            "value": "0"
+        },
+        {
+            "attribute_code": "unit_cost_price_excl_tax",
+            "value": "40.68"
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/8/7/8720286596425_a_en_hd_1_1.jpg"
+        },
+        {
+            "attribute_code": "gift_wrapping_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_dropship_range",
+            "value": "0"
+        },
+        {
+            "attribute_code": "oms_department",
+            "value": "11"
+        },
+        {
+            "attribute_code": "def_dimension_prodwidth",
+            "value": "40"
+        },
+        {
+            "attribute_code": "tag_cost_price_inc_tax",
+            "value": "44.75"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/8/7/8720286596425_a_en_hd_1_1.jpg"
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container2"
+        },
+        {
+            "attribute_code": "is_marketplace_range",
+            "value": "0"
+        },
+        {
+            "attribute_code": "oms_packsize",
+            "value": "1"
+        },
+        {
+            "attribute_code": "internal_notes",
+            "value": "Jaymond 08262025\r\n\r\nEqual parts beautiful and functional, the stylish wall corner shelf is suitable for your living room, bedroom or kitchen. The wall corner shelf is stable and sturdy. With a unique design, the wall shelf serves as an innovative decorative accessory. You can store items and display your favorite decorations such as awards, books, collectables, ornaments, etc. Chic and refined, this display shelf makes the best use of the corner space. Note: Two pieces of wall corner shelves are included.\r\n\r\nhttps://messagepool.sharepoint.com/:x:/r/sites/DEPT-HNAU-DropshipProductManagement/Shared%20Documents/Suppliers/vidaXL%20-%20301203/Product%20submissions/Raw%20Submissions/August%202025/VidaXL%20-%20Harvey%20Norman%20AU%20-%20Product%20Addition%201208.xlsx?d=wa6f71fa253c5449bb57ccaccaf027ee4&csf=1&web=1&e=5F0WVA"
+        },
+        {
+            "attribute_code": "def_dimension_proddepth",
+            "value": "40"
+        },
+        {
+            "attribute_code": "display_shipping_calculator",
+            "value": "1"
+        },
+        {
+            "attribute_code": "swatch_image",
+            "value": "no_selection"
+        },
+        {
+            "attribute_code": "is_main_range",
+            "value": "0"
+        },
+        {
+            "attribute_code": "oms_ffgroup",
+            "value": "211"
+        },
+        {
+            "attribute_code": "def_description_buttons",
+            "value": [
+            ]
+        },
+        {
+            "attribute_code": "automated_sap_price",
+            "value": "1"
+        },
+        {
+            "attribute_code": "barcode_gtin",
+            "value": "8720286596425"
+        },
+        {
+            "attribute_code": "main_features",
+            "value": [
+            ]
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "2"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/8/7/8720286596425_a_en_hd_1_1.jpg"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>Equal parts beautiful and functional, the vidaXL 2 Piece White Engineered Wood 40 x 40 x 50cm Wall Corner Shelves is suitable for your living room, bedroom or kitchen.</p>"
+        },
+        {
+            "attribute_code": "def_price_region_enable",
+            "value": "0"
+        },
+        {
+            "attribute_code": "description",
+            "value": "<div data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\">&lt;h6&gt;Key Features&lt;/h6&gt;\r\n&lt;ul&gt;\r\n&lt;li&gt;The wall corner shelf is stable and sturdy&lt;/li&gt;\r\n&lt;li&gt;With a unique design, the wall shelf serves as an innovative decorative accessory&lt;/li&gt;\r\n&lt;li&gt;You can store items and display your favorite decorations such as awards, books, collectables, ornaments, etc.&lt;/li&gt;\r\n&lt;li&gt;Chic and refined, this display shelf makes the best use of the corner space&lt;/li&gt;\r\n&lt;/ul&gt;</div>"
+        },
+        {
+            "attribute_code": "def_dimension_packweight",
+            "value": "5"
+        },
+        {
+            "attribute_code": "media_rotating_image",
+            "value": "no_selection"
+        },
+        {
+            "attribute_code": "ems_single_qty",
+            "value": "0"
+        },
+        {
+            "attribute_code": "product_staging",
+            "value": "87309"
+        },
+        {
+            "attribute_code": "special_title",
+            "value": "Special Price"
+        },
+        {
+            "attribute_code": "def_general_creator",
+            "value": "110157"
+        },
+        {
+            "attribute_code": "date_created",
+            "value": "2025-08-26 00:00:00"
+        },
+        {
+            "attribute_code": "date_copy",
+            "value": "2025-08-26 00:00:00"
+        },
+        {
+            "attribute_code": "msrp_display_actual_price_type",
+            "value": "0"
+        },
+        {
+            "attribute_code": "date_staging",
+            "value": "2025-09-02 00:00:00"
+        },
+        {
+            "attribute_code": "display_was_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "date_published",
+            "value": "2025-09-05 00:00:00"
+        },
+        {
+            "attribute_code": "offer_type",
+            "value": "87246"
+        },
+        {
+            "attribute_code": "offer_title_short",
+            "value": "  "
+        },
+        {
+            "attribute_code": "required_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "vidaxl-2-piece-white-engineered-wood-40-x-40-x-50cm-wall-corner-shelves"
+        },
+        {
+            "attribute_code": "offer_from",
+            "value": "2025-09-12 00:00:00"
+        },
+        {
+            "attribute_code": "has_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "supplier_name_reporting",
+            "value": "VidaXL"
+        },
+        {
+            "attribute_code": "offer_to",
+            "value": "2045-09-12 00:00:00"
+        },
+        {
+            "attribute_code": "vbdm",
+            "value": "91361"
+        },
+        {
+            "attribute_code": "offer_terms",
+            "value": "  "
+        },
+        {
+            "attribute_code": "def_general_exclusive",
+            "value": "0"
+        },
+        {
+            "attribute_code": "def_system_producttype",
+            "value": "100085"
+        },
+        {
+            "attribute_code": "def_general_brand",
+            "value": "97954"
+        },
+        {
+            "attribute_code": "def_general_maincolour",
+            "value": "83808"
+        },
+        {
+            "attribute_code": "def_general_allcolour",
+            "value": "45475"
+        },
+        {
+            "attribute_code": "def_general_hidecode",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_imported",
+            "value": "1"
+        },
+        {
+            "attribute_code": "is_googleshopping",
+            "value": "1"
+        },
+        {
+            "attribute_code": "google_product_category",
+            "value": "70274"
+        },
+        {
+            "attribute_code": "ebay_availableon",
+            "value": "0"
+        },
+        {
+            "attribute_code": "enable_flix_media",
+            "value": "0"
+        },
+        {
+            "attribute_code": "external_product_id",
+            "value": "807224"
+        },
+        {
+            "attribute_code": "is_returnable",
+            "value": "2"
+        },
+        {
+            "attribute_code": "on_clearance",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_from_bestsellers",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "can_reserve",
+            "value": "26596"
+        },
+        {
+            "attribute_code": "is_non_diminishing",
+            "value": "0"
+        },
+        {
+            "attribute_code": "feature_icons",
+            "value": "32346"
+        },
+        {
+            "attribute_code": "hide_reviews",
+            "value": "0"
+        },
+        {
+            "attribute_code": "enable_cnet_inline_content",
+            "value": "0"
+        },
+        {
+            "attribute_code": "bazaar_average",
+            "value": "0.000000"
+        },
+        {
+            "attribute_code": "bazaar_review_cnt",
+            "value": "0"
+        },
+        {
+            "attribute_code": "core_range_code",
+            "value": "O"
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "9313"
+            ]
+        },
+        {
+            "attribute_code": "msg_availability_type",
+            "value": "35494"
+        },
+        {
+            "attribute_code": "call_to_action",
+            "value": "add_to_cart"
+        },
+        {
+            "attribute_code": "value_statement",
+            "value": "67197,67201,67223"
+        },
+        {
+            "attribute_code": "enable_check_store_stock",
+            "value": "1"
+        },
+        {
+            "attribute_code": "msg_availability",
+            "value": "10341"
+        },
+        {
+            "attribute_code": "enable_add_to_cart",
+            "value": "1"
+        }
+    ]
+}
+
+
+# 2023 product
+
+
+{
+    "id": 542082,
+    "sku": "SKM236SFB",
+    "name": "Skillmatics Search and Find",
+    "attribute_set_id": 331,
+    "price": 29.99,
+    "status": 2,
+    "visibility": 3,
+    "type_id": "simple",
+    "created_at": "2023-08-01 14:31:32",
+    "updated_at": "2025-07-09 08:39:48",
+    "weight": 0.65,
+    "extension_attributes": {
+        "website_ids": [
+            1
+        ],
+        "category_links": [
+            {
+                "position": 341,
+                "category_id": "6024"
+            }
+        ]
+    },
+    "product_links": [
+    ],
+    "options": [
+    ],
+    "media_gallery_entries": [
+        {
+            "id": 1103425,
+            "media_type": "image",
+            "label": null,
+            "position": 1,
+            "disabled": false,
+            "types": [
+                "image",
+                "small_image",
+                "thumbnail"
+            ],
+            "file": "/1/_/1_8_19.jpg"
+        },
+        {
+            "id": 1103426,
+            "media_type": "image",
+            "label": null,
+            "position": 2,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/2/_/2_7_39.jpg"
+        },
+        {
+            "id": 1103427,
+            "media_type": "image",
+            "label": null,
+            "position": 3,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/3/_/3_8_20.jpg"
+        },
+        {
+            "id": 1103428,
+            "media_type": "image",
+            "label": null,
+            "position": 4,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/4/_/4_8_23.jpg"
+        },
+        {
+            "id": 1103429,
+            "media_type": "image",
+            "label": null,
+            "position": 5,
+            "disabled": false,
+            "types": [
+            ],
+            "file": "/5/_/5_3_19.jpg"
+        }
+    ],
+    "tier_prices": [
+    ],
+    "custom_attributes": [
+        {
+            "attribute_code": "def_warranty_manufacture",
+            "value": "61368"
+        },
+        {
+            "attribute_code": "unit_cost_price_inc_tax",
+            "value": "19.47"
+        },
+        {
+            "attribute_code": "standout_text",
+            "value": "        "
+        },
+        {
+            "attribute_code": "cost",
+            "value": "19.470000"
+        },
+        {
+            "attribute_code": "is_recurring",
+            "value": "1"
+        },
+        {
+            "attribute_code": "gift_message_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "article_i_d",
+            "value": "12202378"
+        },
+        {
+            "attribute_code": "is_ewarranty_automatic",
+            "value": "0"
+        },
+        {
+            "attribute_code": "unit_cost_price_excl_tax",
+            "value": "17.70"
+        },
+        {
+            "attribute_code": "thumbnail",
+            "value": "/1/_/1_8_19.jpg"
+        },
+        {
+            "attribute_code": "gift_wrapping_available",
+            "value": "0"
+        },
+        {
+            "attribute_code": "oms_department",
+            "value": "11"
+        },
+        {
+            "attribute_code": "productcare_group",
+            "value": "01125TDSGPUCAR"
+        },
+        {
+            "attribute_code": "tag_cost_price_inc_tax",
+            "value": "19.47"
+        },
+        {
+            "attribute_code": "small_image",
+            "value": "/1/_/1_8_19.jpg"
+        },
+        {
+            "attribute_code": "options_container",
+            "value": "container2"
+        },
+        {
+            "attribute_code": "oms_packsize",
+            "value": "262"
+        },
+        {
+            "attribute_code": "internal_notes",
+            "value": "- 24.08.2023/Tasy\r\n- Dropship (125) - Priority Sheet\r\n\r\nSearch & Find activities that help children to build their vocabulary while discovering amazing new places! Examples of places are Outer Space, Safari, Under the Ocean, Camp etc."
+        },
+        {
+            "attribute_code": "display_shipping_calculator",
+            "value": "1"
+        },
+        {
+            "attribute_code": "swatch_image",
+            "value": "no_selection"
+        },
+        {
+            "attribute_code": "oms_ffgroup",
+            "value": "211"
+        },
+        {
+            "attribute_code": "def_description_buttons",
+            "value": [
+            ]
+        },
+        {
+            "attribute_code": "def_dimension_packheight",
+            "value": "0"
+        },
+        {
+            "attribute_code": "automated_sap_price",
+            "value": "1"
+        },
+        {
+            "attribute_code": "barcode_gtin",
+            "value": "8904279501966"
+        },
+        {
+            "attribute_code": "main_features",
+            "value": [
+            ]
+        },
+        {
+            "attribute_code": "def_dimension_packwidth",
+            "value": "0"
+        },
+        {
+            "attribute_code": "tax_class_id",
+            "value": "2"
+        },
+        {
+            "attribute_code": "image",
+            "value": "/1/_/1_8_19.jpg"
+        },
+        {
+            "attribute_code": "short_description",
+            "value": "<p>x</p>"
+        },
+        {
+            "attribute_code": "def_dimension_packdepth",
+            "value": "0"
+        },
+        {
+            "attribute_code": "def_price_region_enable",
+            "value": "0"
+        },
+        {
+            "attribute_code": "description",
+            "value": "<div data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\">Built from masterdata product record #289363</div>"
+        },
+        {
+            "attribute_code": "def_dimension_packweight",
+            "value": "0.650"
+        },
+        {
+            "attribute_code": "media_rotating_image",
+            "value": "no_selection"
+        },
+        {
+            "attribute_code": "ems_single_qty",
+            "value": "0"
+        },
+        {
+            "attribute_code": "product_staging",
+            "value": "87307"
+        },
+        {
+            "attribute_code": "special_title",
+            "value": "Special Price"
+        },
+        {
+            "attribute_code": "date_created",
+            "value": "2023-08-02 00:00:00"
+        },
+        {
+            "attribute_code": "date_waiting",
+            "value": "2023-08-24 00:00:00"
+        },
+        {
+            "attribute_code": "date_copy",
+            "value": "2023-10-06 00:00:00"
+        },
+        {
+            "attribute_code": "msrp_display_actual_price_type",
+            "value": "0"
+        },
+        {
+            "attribute_code": "display_was_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "offer_type",
+            "value": "0"
+        },
+        {
+            "attribute_code": "offer_title_short",
+            "value": "         "
+        },
+        {
+            "attribute_code": "offer_title_long",
+            "value": "            "
+        },
+        {
+            "attribute_code": "offer_text",
+            "value": "         "
+        },
+        {
+            "attribute_code": "required_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "url_key",
+            "value": "staging-skillmatics-search-and-find"
+        },
+        {
+            "attribute_code": "offer_from",
+            "value": "2024-08-02 00:00:00"
+        },
+        {
+            "attribute_code": "has_options",
+            "value": "0"
+        },
+        {
+            "attribute_code": "supplier_name_reporting",
+            "value": "Modern Brands"
+        },
+        {
+            "attribute_code": "offer_to",
+            "value": "2024-08-02 00:00:00"
+        },
+        {
+            "attribute_code": "def_general_exclusive",
+            "value": "0"
+        },
+        {
+            "attribute_code": "offer_terms",
+            "value": "         "
+        },
+        {
+            "attribute_code": "vbdm",
+            "value": "91357"
+        },
+        {
+            "attribute_code": "offer_link",
+            "value": "           "
+        },
+        {
+            "attribute_code": "def_system_producttype",
+            "value": "98799"
+        },
+        {
+            "attribute_code": "def_general_brand",
+            "value": "110499"
+        },
+        {
+            "attribute_code": "def_general_model",
+            "value": "SKM236SFB"
+        },
+        {
+            "attribute_code": "def_general_maincolour",
+            "value": "82867"
+        },
+        {
+            "attribute_code": "def_general_allcolour",
+            "value": "45466"
+        },
+        {
+            "attribute_code": "def_general_hidecode",
+            "value": "0"
+        },
+        {
+            "attribute_code": "is_imported",
+            "value": "1"
+        },
+        {
+            "attribute_code": "is_googleshopping",
+            "value": "1"
+        },
+        {
+            "attribute_code": "google_product_category",
+            "value": "70724"
+        },
+        {
+            "attribute_code": "ebay_availableon",
+            "value": "0"
+        },
+        {
+            "attribute_code": "enable_flix_media",
+            "value": "0"
+        },
+        {
+            "attribute_code": "external_product_id",
+            "value": "SKM236SFB"
+        },
+        {
+            "attribute_code": "is_returnable",
+            "value": "2"
+        },
+        {
+            "attribute_code": "on_clearance",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_from_bestsellers",
+            "value": "0"
+        },
+        {
+            "attribute_code": "hide_price",
+            "value": "0"
+        },
+        {
+            "attribute_code": "can_reserve",
+            "value": "26596"
+        },
+        {
+            "attribute_code": "is_non_diminishing",
+            "value": "0"
+        },
+        {
+            "attribute_code": "feature_icons",
+            "value": "32346"
+        },
+        {
+            "attribute_code": "hide_reviews",
+            "value": "0"
+        },
+        {
+            "attribute_code": "enable_cnet_inline_content",
+            "value": "0"
+        },
+        {
+            "attribute_code": "bazaar_average",
+            "value": "0.000000"
+        },
+        {
+            "attribute_code": "bazaar_review_cnt",
+            "value": "0"
+        },
+        {
+            "attribute_code": "core_range_code",
+            "value": "O"
+        },
+        {
+            "attribute_code": "category_ids",
+            "value": [
+                "6024"
+            ]
+        },
+        {
+            "attribute_code": "enable_check_store_stock",
+            "value": "1"
+        },
+        {
+            "attribute_code": "value_statement",
+            "value": "67197,67201,67223"
+        },
+        {
+            "attribute_code": "msg_availability_type",
+            "value": "35494"
+        },
+        {
+            "attribute_code": "msg_availability",
+            "value": "10341"
+        },
+        {
+            "attribute_code": "call_to_action",
+            "value": "add_to_cart"
+        },
+        {
+            "attribute_code": "enable_add_to_cart",
+            "value": "1"
+        }
+    ]
+}
