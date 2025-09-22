@@ -1,20 +1,8 @@
-"""
-Standalone GUI: PHP Serialized → JSON (full nested), stdlib-only.
-
-Features:
-- Accurate PHP unserializer (arrays, nested, ints, floats, bools, null).
-- Optional lenient repair mode for mismatched string lengths (logs diagnostics).
-- Optional shell-only cleanup (decodes HTML entities outside s:<len>:"...").
-- Tkinter GUI with left controls and right panes (Input, Output, Diagnostics).
-- Shortcuts: Ctrl+1 / F5 (Convert), Ctrl+O (Open), Ctrl+S (Save), Ctrl+L (Clear).
-
-"""
-
 import json
 import re
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
-
+import re
 
 LENIENT_STRING_TERMINATOR = False  # allow repairs when s:<len> doesn't match close
 WARNINGS = []
@@ -22,17 +10,13 @@ WARNINGS = []
 def _reset_warnings():
     WARNINGS.clear()
 
-
 def _warn(kind: str, **data):
     WARNINGS.append({"kind": kind, **data})
 
-
 class ParseError(Exception):
-    """Parser error including byte position for better diagnostics."""
     def __init__(self, message: str, pos: int):
         super().__init__(message)
         self.pos = pos
-
 
 def _read_until(b: bytes, i: int, delim: bytes):
     j = b.find(delim, i)
@@ -164,7 +148,6 @@ def _lenient_scan_close(b: bytes, start: int):
             return sbytes, j + 1
         k += 1
 
-
 def _parse_key(b: bytes, i: int):
     t = b[i:i+2]
     if t == b'i:':
@@ -173,7 +156,6 @@ def _parse_key(b: bytes, i: int):
         return _parse_string(b, i+2)
     else:
         raise ParseError(f'Unsupported key type: {t!r}', i)
-
 
 def _parse_value(b: bytes, i: int):
     t = b[i:i+2]
@@ -207,7 +189,6 @@ def _parse_value(b: bytes, i: int):
             raise ParseError('Expected "}" to close array', i)
         i += 1
 
-        # Convert to list if keys are contiguous ints starting at 0; else dict
         keys = [k for k, _ in items]
         if keys and all(isinstance(k, int) for k in keys) and keys == list(range(len(keys))):
             return [v for _, v in items], i
@@ -275,7 +256,7 @@ DEFAULT_SAMPLE = (
 )
 
 try:
-    TtkSpinbox = ttk.Spinbox  # type: ignore[attr-defined]
+    TtkSpinbox = ttk.Spinbox
     HAS_TTK_SPINBOX = True
 except Exception:
     TtkSpinbox = None
@@ -308,13 +289,12 @@ class PhpToJsonApp(tk.Tk):
         self._apply_theme("Dark")
 
     def _apply_theme(self, theme: str):
-        # Basic light/dark palette
         if theme == "Dark":
             bg = "#0f172a"      # slate-900
             panel = "#111827"   # gray-900
             fg = "#e5e7eb"      # gray-200
             subfg = "#cbd5e1"   # slate-300
-            accent = "#22d3ee"  # cyan-400
+            accent = "#095c69"  # cyan-400
             text_bg = "#0b1020"
             text_sel = "#1e293b"
         else:
@@ -329,7 +309,6 @@ class PhpToJsonApp(tk.Tk):
         self.configure(bg=bg)
         style = self.style
         style.theme_use("clam")
-
         style.configure("TFrame", background=bg)
         style.configure("Left.TFrame", background=panel, relief="flat")
         style.configure("Right.TFrame", background=bg)
@@ -342,11 +321,32 @@ class PhpToJsonApp(tk.Tk):
         style.configure("TCheckbutton", background=panel, foreground=fg)
         style.configure("TMenubutton", background=panel, foreground=fg)
         style.configure("TSeparator", background=bg)
-
+        style.configure("TLabelFrame", background=panel, foreground=fg)
+        style.configure("TLabelFrame.Label", background=panel, foreground=fg)
+        style.configure("Options.TLabelframe", background=panel, foreground=fg)
+        style.configure("Options.TLabelframe.Label", background=panel, foreground=fg)
+        style.configure(
+            "TCombobox",
+            background=fg,
+            foreground=bg,
+            # background=bg,
+            # foreground=fg,            
+            fieldbackground=panel,
+            selectbackground=accent,
+            selectforeground=fg
+        )
+        self.option_add('*TCombobox*Listbox.background', panel)
+        self.option_add('*TCombobox*Listbox.foreground', fg)
         self.colors = {
             "bg": bg, "panel": panel, "fg": fg, "subfg": subfg,
             "accent": accent, "text_bg": text_bg, "text_sel": text_sel
         }
+        if HAS_TTK_SPINBOX:
+            style.configure("TSpinbox", background=panel, foreground=fg, fieldbackground=panel)
+            self.option_add('*TSpinbox*Listbox.background', panel)
+            self.option_add('*TSpinbox*Listbox.foreground', fg)
+        else:
+            style.configure("Spinbox", background=panel, foreground=fg, fieldbackground=panel)
 
     def _build_ui(self):
         root_pw = ttk.Panedwindow(self, orient=tk.HORIZONTAL)
@@ -359,7 +359,7 @@ class PhpToJsonApp(tk.Tk):
         root_pw.add(right, weight=1)
 
         title = ttk.Label(left, text="PHP → JSON", style="Title.TLabel")
-        subtitle = ttk.Label(left, text="Full nested conversion · stdlib only", style="Sublabel.TLabel")
+        subtitle = ttk.Label(left, text="Full nested conversion", style="Sublabel.TLabel")
 
         btn_parse = ttk.Button(left, text="Convert (Ctrl+1 / F5)", style="Accent.TButton", command=self.on_parse)
         btn_open  = ttk.Button(left, text="Open… (Ctrl+O)", command=self.on_open)
@@ -367,20 +367,24 @@ class PhpToJsonApp(tk.Tk):
         btn_copy  = ttk.Button(left, text="Copy Output", command=self.on_copy_output)
         btn_clear = ttk.Button(left, text="Clear (Ctrl+L)", command=self.on_clear)
 
-        opts = ttk.LabelFrame(left, text="Options", padding=(8, 6))
+        opts = ttk.LabelFrame(left, text="Options", padding=(8, 6), style="Options.TLabelframe" )
         theme_label = ttk.Label(opts, text="Theme:")
         theme_combo = ttk.Combobox(opts, textvariable=self.theme_var, values=["Dark", "Light"], state="readonly", width=10)
         theme_combo.bind("<<ComboboxSelected>>", self.on_theme_change)
 
         pretty_cb = ttk.Checkbutton(opts, text="Pretty print", variable=self.pretty_var, command=self._update_indent_state)
         indent_label = ttk.Label(opts, text="Indent:")
+        options = {"from_": 0, "to": 8, "textvariable": self.indent_var, "width": 4}
+        options["state"] = "normal"  # default
+        options_frame = ttk.Frame(opts)
+
         if HAS_TTK_SPINBOX:
             indent_spin = TtkSpinbox(opts, from_=0, to=8, textvariable=self.indent_var, width=4)
         else:
             indent_spin = tk.Spinbox(opts, from_=0, to=8, textvariable=self.indent_var, width=4)
         indent_spin.bind("<FocusOut>", lambda e: self._coerce_indent())
         indent_spin.bind("<Return>", lambda e: self._coerce_indent())
-
+        indent_spin.bind("<KP_Enter>", lambda e: self._coerce_indent())
         wrap_in_cb = ttk.Checkbutton(opts, text="Wrap input", variable=self.wrap_input_var, command=self.on_wrap_change)
         wrap_out_cb = ttk.Checkbutton(opts, text="Wrap output", variable=self.wrap_output_var, command=self.on_wrap_change)
         cleanup_cb = ttk.Checkbutton(opts, text="Shell-only cleanup (HTML entities)", variable=self.cleanup_shell_var)
@@ -490,6 +494,7 @@ class PhpToJsonApp(tk.Tk):
         self.output_text.configure(wrap=("word" if self.wrap_output_var.get() else "none"))
 
     def on_parse(self):
+        import json
         global LENIENT_STRING_TERMINATOR
         self.clear_error_highlight()
         self._clear_diag()
@@ -505,10 +510,21 @@ class PhpToJsonApp(tk.Tk):
                 raw = safe_cleanup_shell_only(raw)
 
             indent = self.indent_var.get() if self.pretty_var.get() else 0
-            obj = php_unserialize(raw)
+
+            try:
+                obj = php_unserialize(raw)
+            except ParseError:
+                try:
+                    obj = json.loads(raw)
+                    out = json.dumps(obj, indent=indent or 2, ensure_ascii=False)
+                    self.highlight_json(self.output_text, out)
+                    self.set_status("Input is valid JSON. Pretty printed.")
+                    return
+                except Exception:
+                    raise
+
             out = json.dumps(obj, indent=indent, ensure_ascii=False)
-            self.output_text.delete("1.0", tk.END)
-            self.output_text.insert("1.0", out)
+            self.highlight_json(self.output_text, out)
 
             self._emit_diag(WARNINGS)
             if WARNINGS:
@@ -522,14 +538,49 @@ class PhpToJsonApp(tk.Tk):
                 "byte_pos": pe.pos,
                 "context": context
             }
-            self.output_text.delete("1.0", tk.END)
-            self.output_text.insert("1.0", json.dumps(diag, indent=2, ensure_ascii=False))
+            self.highlight_json(self.output_text, json.dumps(diag, indent=2, ensure_ascii=False))
             self._highlight_error_at_byte(pe.pos, raw)
             self.set_status(f"Parse error at byte {pe.pos}")
         except Exception as e:
-            self.output_text.delete("1.0", tk.END)
-            self.output_text.insert("1.0", json.dumps({"error": str(e)}, indent=2))
+            self.highlight_json(self.output_text, json.dumps({"error": str(e)}, indent=2))
             self.set_status(f"Error: {e}")
+
+    def highlight_json(self, text_widget, json_str):
+        import re
+
+        for tag in text_widget.tag_names():
+            text_widget.tag_delete(tag)
+
+        text_widget.tag_configure("key", foreground="#7dd3fc")      # sky-300
+        text_widget.tag_configure("string", foreground="#f472b6")   # pink-400
+        text_widget.tag_configure("number", foreground="#facc15")   # yellow-400
+        text_widget.tag_configure("boolean", foreground="#34d399")  # green-400
+        text_widget.tag_configure("null", foreground="#a3a3a3")     # gray-400
+
+        key_pattern = r'(".*?")\s*:'
+        string_pattern = r':\s*(".*?")'
+        number_pattern = r'(:\s*)(-?\d+(\.\d+)?([eE][+-]?\d+)?)'
+        boolean_pattern = r'(:\s*)(true|false)'
+        null_pattern = r'(:\s*)null'
+
+        text_widget.delete("1.0", tk.END)
+        text_widget.insert("1.0", json_str)
+
+        for match in re.finditer(key_pattern, json_str):
+            start, end = match.span(1)
+            text_widget.tag_add("key", f"1.0+{start}c", f"1.0+{end}c")
+        for match in re.finditer(string_pattern, json_str):
+            start, end = match.span(1)
+            text_widget.tag_add("string", f"1.0+{start}c", f"1.0+{end}c")
+        for match in re.finditer(number_pattern, json_str):
+            start, end = match.span(2)
+            text_widget.tag_add("number", f"1.0+{start}c", f"1.0+{end}c")
+        for match in re.finditer(boolean_pattern, json_str):
+            start, end = match.span(2)
+            text_widget.tag_add("boolean", f"1.0+{start}c", f"1.0+{end}c")
+        for match in re.finditer(null_pattern, json_str):
+            start, end = match.span(0)
+            text_widget.tag_add("null", f"1.0+{start}c", f"1.0+{end}c")
 
     def on_open(self):
         path = filedialog.askopenfilename(
@@ -589,7 +640,6 @@ class PhpToJsonApp(tk.Tk):
         self.clear_error_highlight()
         self.set_status("Cleared.")
 
-    # ---- Diagnostics helpers ----
     def _clear_diag(self):
         self.diag_text.configure(state="normal")
         self.diag_text.delete("1.0", tk.END)
@@ -604,7 +654,6 @@ class PhpToJsonApp(tk.Tk):
             self.diag_text.insert(tk.END, f"- {n['kind']}: {json.dumps({k:v for k,v in n.items() if k!='kind'}, ensure_ascii=False)}\n")
         self.diag_text.configure(state="disabled")
 
-    # ---- Utilities ----
     def set_status(self, msg: str):
         self.status.set(msg)
 
@@ -638,11 +687,9 @@ class PhpToJsonApp(tk.Tk):
         pointer = " " * (len(b[start:byte_pos].decode("utf-8", errors="ignore"))) + "▲"
         return f"...{snippet}...\n{pointer}"
 
-
 def main():
     app = PhpToJsonApp()
     app.mainloop()
-
 
 if __name__ == "__main__":
     main()
