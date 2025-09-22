@@ -42,6 +42,7 @@ def process_excel_urls(input_file, output_file, pretty_format):
     merge_and_center(ws_out)
     wb_out.save(output_file)
 
+# Function to process CSV file with category columns
 def process_csv_categories(input_file, output_file):
     wb = openpyxl.Workbook()
     ws = wb.active
@@ -59,6 +60,7 @@ def process_csv_categories(input_file, output_file):
     merge_and_center(ws)
     wb.save(output_file)
 
+# Function to merge and center duplicate cells
 def merge_and_center(ws):
     for col in range(1, 4):
         start_row = 2
@@ -72,6 +74,7 @@ def merge_and_center(ws):
                 ws.cell(row=start_row, column=col).alignment = Alignment(horizontal="center", vertical="center")
             start_row = end_row + 1
 
+# Function to preview input file content
 def preview_file(path):
     preview_text.delete("1.0", tk.END)
     try:
@@ -90,6 +93,7 @@ def preview_file(path):
     except Exception as e:
         preview_text.insert(tk.END, f"Error reading file: {e}")
 
+# GUI Application
 def run_gui():
     def browse_file():
         path = filedialog.askopenfilename()
@@ -132,21 +136,23 @@ def run_gui():
     tk.Label(root, text="Input File:").grid(row=4, column=0, sticky="w")
     file_path = tk.StringVar()
     tk.Entry(root, textvariable=file_path, width=40).grid(row=4, column=1)
-    tk.Button(root, text="Browse", command=browse_file).grid(row=4, column=2)
+    tk.Button(root, text="Browse", command=browse_file).grid(row=4, column=1, sticky="e")
 
     tk.Label(root, text="Output File:").grid(row=5, column=0, sticky="w")
     output_file = tk.StringVar()
     tk.Entry(root, textvariable=output_file, width=40).grid(row=5, column=1)
+    tk.Button(root, text="Browse", command=lambda: output_file.set(filedialog.asksaveasfilename(defaultextension=".xlsx", filetypes=[("Excel files", "*.xlsx")]))).grid(row=5, column=1, sticky="e")    
+    
 
     pretty_format = tk.BooleanVar()
     tk.Checkbutton(root, text="Pretty Format (e.g. 'Bathroom, Tiles & Renovations')", variable=pretty_format).grid(row=6, column=0, columnspan=3, sticky="w")
 
-    tk.Button(root, text="Generate Excel", command=generate).grid(row=7, column=1, pady=10)
+    tk.Button(root, text="Generate Excel", command=generate).grid(row=9, column=0, pady=10, columnspan=3)
 
-    tk.Label(root, text="Preview:").grid(row=8, column=0, sticky="nw")
+    tk.Label(root, text="Preview:").grid(row=7, column=0, sticky="nw")
     global preview_text
     preview_text = scrolledtext.ScrolledText(root, width=60, height=10)
-    preview_text.grid(row=8, column=1, columnspan=2)
+    preview_text.grid(row=8, column=0, columnspan=2)
 
     root.mainloop()
 
